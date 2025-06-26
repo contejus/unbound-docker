@@ -75,6 +75,7 @@ RUN build_deps="curl gcc libc-dev libevent-dev libexpat1-dev libnghttp2-dev make
       ca-certificates \
       ldnsutils \
       libevent-2.1-7 \
+      libhiredis-dev \
       libexpat1 \
       libprotobuf-c-dev \
       protobuf-c-compiler && \
@@ -92,6 +93,7 @@ RUN build_deps="curl gcc libc-dev libevent-dev libexpat1-dev libnghttp2-dev make
         --with-username=_unbound \
         --with-ssl=/opt/openssl \
         --with-libevent \
+        --with-libhiredis \
         --with-libnghttp2 \
         --enable-dnstap \
         --enable-tfo-server \
@@ -126,6 +128,7 @@ RUN set -x && \
       ca-certificates \
       ldnsutils \
       libevent-2.1-7 \
+      libhiredis0.14 \
       libnghttp2-14 \
       libexpat1 \
       libprotobuf-c1 && \
