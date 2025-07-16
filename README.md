@@ -5,7 +5,8 @@
 
 
 ## Supported tags and respective `Dockerfile` links
-- [`1.23.0`, `latest` (*1.23.0/Dockerfile*)](https://github.com/Securepoint/unbound-docker/tree/master/1.23.0)
+- [`1.23.1`, `latest` (*1.23.1/Dockerfile*)](https://github.com/Securepoint/unbound-docker/tree/master/1.23.1)
+- [`1.23.0`, (*1.23.0/Dockerfile*)](https://github.com/Securepoint/unbound-docker/tree/master/1.23.0)
 - [`1.22.0`, (*1.22.0/Dockerfile*)](https://github.com/MatthewVance/unbound-docker/tree/master/1.22.0)
 - [`1.21.1`, (*1.21.1/Dockerfile*)](https://github.com/MatthewVance/unbound-docker/tree/master/1.21.1)
 - [`1.21.0`, (*1.21.0/Dockerfile*)](https://github.com/MatthewVance/unbound-docker/tree/master/1.21.0)
